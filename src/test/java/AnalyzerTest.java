@@ -26,7 +26,7 @@ import org.junit.Test;
 public class AnalyzerTest {
 
 	@Test
-	public void TestOne() {
+	public void testOne() {
 		CSVReader testFile = new CSVReader("data/Table-1.csv");
 		CSVReader expectedOne = new CSVReader("data/expected-1.csv");
 		CSVReader expectedTwo = new CSVReader("data/expected-2.csv");
@@ -61,7 +61,7 @@ public class AnalyzerTest {
 	}
 
 	@Test
-	public void TestTwo() {
+	public void testTwo() {
 		CSVReader testFile = new CSVReader("data/Table-1.csv");
 		CSVReader expectedTwo = new CSVReader("data/expected-2.csv");
 		

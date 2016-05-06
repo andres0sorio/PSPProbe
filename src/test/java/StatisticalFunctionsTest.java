@@ -27,7 +27,7 @@ public class StatisticalFunctionsTest {
 	 * Expected value number
 	 */
 	@Test
-	public void TestOne() {
+	public void testOne() {
 
 		double[] params = new double[1];
 		params[0] = 9.0;
@@ -40,7 +40,7 @@ public class StatisticalFunctionsTest {
 	 * Expected value number
 	 */
 	@Test
-	public void TestTwo() {
+	public void testTwo() {
 
 		double[] params = new double[1];
 		params[0] = 10.0;
@@ -53,7 +53,7 @@ public class StatisticalFunctionsTest {
 	 * Expected value number
 	 */
 	@Test
-	public void TestThree() {
+	public void testThree() {
 
 		double[] params = new double[1];
 		params[0] = 30.0;
@@ -66,7 +66,7 @@ public class StatisticalFunctionsTest {
 	 * Expected value number
 	 */
 	@Test
-	public void TestRootFinderOne() {
+	public void testRootFinderOne() {
 
 		double[] params = new double[1];
 		params[0] = 6.0;
@@ -79,7 +79,7 @@ public class StatisticalFunctionsTest {
 	 * Expected value number
 	 */
 	@Test
-	public void TestRootFinderTwo() {
+	public void testRootFinderTwo() {
 
 		double[] params = new double[1];
 		params[0] = 15.0;
@@ -92,7 +92,7 @@ public class StatisticalFunctionsTest {
 	 * Expected value number
 	 */
 	@Test
-	public void TestRootFinderThree() {
+	public void testRootFinderThree() {
 
 		double[] params = new double[1];
 		params[0] = 4.0;
