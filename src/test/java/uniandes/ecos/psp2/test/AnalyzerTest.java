@@ -1,9 +1,13 @@
+package uniandes.ecos.psp2.test;
 import static org.junit.Assert.*;
 
 import java.io.FileNotFoundException;
 import java.util.Iterator;
 
 import org.junit.Test;
+
+import uniandes.ecos.psp2.Analyzer;
+import uniandes.ecos.psp2.CSVReader;
 
 /** Copyright or License
  *

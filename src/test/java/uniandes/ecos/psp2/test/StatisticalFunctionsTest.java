@@ -1,9 +1,12 @@
+package uniandes.ecos.psp2.test;
 /** Copyright or License
 *
 */
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import uniandes.ecos.psp2.StatisticalFunctions;
 
 /**
 * Package: 
