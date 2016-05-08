@@ -4,18 +4,18 @@ package uniandes.ecos.psp2;
  *
  */
 
-import java.sql.*;
-import java.text.DecimalFormat;
-import java.util.HashMap;
+//import java.sql.*;
+//import java.text.DecimalFormat;
+//import java.util.HashMap;
 import java.util.Iterator;
 import java.util.ArrayList;
-import java.util.Map;
+//import java.util.Map;
 
-import org.jfree.chart.plot.XYPlot;
+//import org.jfree.chart.plot.XYPlot;
 
 import java.io.FileNotFoundException;
-import java.math.RoundingMode;
-
+//import java.math.RoundingMode;
+/*
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -25,6 +25,7 @@ import spark.ModelAndView;
 import static spark.Spark.get;
 
 import com.heroku.sdk.jdbc.DatabaseUrl;
+*/
 
 /**
  * Package:
