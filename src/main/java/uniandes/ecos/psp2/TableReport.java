@@ -24,8 +24,8 @@ import java.util.Iterator;
  */
 public class TableReport {
 
-	String name;
-	ArrayList<String> rows;
+	private String name;
+	private ArrayList<String> rows;
 
 	/**
 	 * Constructor - takes a title for this table

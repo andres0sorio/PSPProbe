@@ -33,14 +33,14 @@ public class CSVReader {
 
 	private String inputFile;
 
-	BufferedReader buffer = null;
+	private BufferedReader buffer = null;
 
-	String cvsSplitBy = ",";
-	int nrow = 0;
-	int ncol = 0;
-	boolean fileIsRead = false;
+	private String cvsSplitBy = ",";
+	private int nrow = 0;
+	private int ncol = 0;
+	private boolean fileIsRead = false;
 	
-	ArrayList<ArrayList<Double>> table = new ArrayList<ArrayList<Double>>();
+	private ArrayList<ArrayList<Double>> table = new ArrayList<ArrayList<Double>>();
 
 	/** Constructor - gets the input file string
 	 * @param infile input file (in CSV format)

@@ -27,14 +27,14 @@ import java.util.Map;
  */
 public class Analyzer {
 
-	CSVReader inputFile;
-	PairValues<Integer, Integer> option;
-	LinkedList<PairValues<Double, Double>> data;
-	Map<String, Double> results;
-	TableReport table;
-	Double xk;
+	private CSVReader inputFile;
+	private PairValues<Integer, Integer> option;
+	private LinkedList<PairValues<Double, Double>> data;
+	private Map<String, Double> results;
+	private TableReport table;
+	private Double xk;
 	private int proxySize;
-	String name;
+	private String name;
 	
 	public final static PairValues<Integer, Integer> OPTIONONE = new PairValues<Integer, Integer>(1, 3);
 	public final static PairValues<Integer, Integer> OPTIONTWO = new PairValues<Integer, Integer>(1, 4);
