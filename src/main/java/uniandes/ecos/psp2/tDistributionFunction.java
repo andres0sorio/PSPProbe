@@ -19,7 +19,7 @@ package uniandes.ecos.psp2;
  */
 public class tDistributionFunction implements IOneDimFunction {
 
-	double [] params;
+	private double [] params;
 		
 	/** Constructor method
 	 * @param params the parameters of this function
